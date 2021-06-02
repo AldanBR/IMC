@@ -1,0 +1,79 @@
+body{
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px;
+  height: 500px;
+  padding: 5px;
+  border-radius: .25rem;
+  width: 400px;
+
+}
+
+h2{
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px 30px;
+  border-top: 1px solid gray;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
+.sex-options{
+  flex-direction:row ;
+}
+.form-group>*:first-child {
+  font-weight: bold;
+}
+
+#calc-imc-btn {
+  font-size: 1.2em;
+}
+
+#calc-imc-btn .fa {
+  font-size: 1.4em;
+}
+
+.form-control[readonly] {
+  background-color: #fefefe;
+}
+
+.form-control-lg{
+  height: 2.3rem;
+  font-size: 16px;
+  border-radius: .25rem;
+  border: 1px solid gray;
+  margin: .55rem 0;
+}
+
+.btn {
+  border: 3px solid ;
+  margin-top: 1em;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, .125);
+  
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: none;
+  
+}
+
+.btn:active{
+
+  background-color: rgba(0, 0, 0, .125);
+  border-color: rgba(0, 0, 0, 0.03);
+}
